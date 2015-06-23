@@ -1,0 +1,44 @@
+set -tmpdir __projnav
+set -xsthdpdir ./xst
+run
+-ifn pc16.prj
+-ifmt VHDL
+-ofn pc16
+-ofmt NGC
+-p xc2s150-6pq208
+-ent pc16
+-opt_mode Speed
+-opt_level 1
+-iuc NO
+-keep_hierarchy NO
+-glob_opt AllClockNets
+-rtlview Yes
+-read_cores YES
+-write_timing_constraints NO
+-cross_clock_analysis NO
+-hierarchy_separator _
+-bus_delimiter <>
+-case lower
+-slice_utilization_ratio 100
+-fsm_extract YES -fsm_encoding Auto
+-ram_extract Yes
+-ram_style Auto
+-rom_extract Yes
+-mux_extract YES
+-mux_style Auto
+-decoder_extract YES
+-priority_extract YES
+-shreg_extract YES
+-shift_extract YES
+-xor_collapse YES
+-resource_sharing YES
+-complex_clken YES
+-iobuf YES
+-max_fanout 100
+-bufg 0
+-register_duplication YES
+-equivalent_register_removal YES
+-register_balancing No
+-slice_packing YES
+-iob auto
+-slice_utilization_ratio_maxmargin 5

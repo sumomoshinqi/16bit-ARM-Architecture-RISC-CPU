@@ -1,0 +1,8 @@
+MOVH R1,#07h
+MOVL R1,#7fh
+MOV R2,R1
+L2:
+LSLI R2,[R2,#4]
+BN L1
+BB L2
+L1:

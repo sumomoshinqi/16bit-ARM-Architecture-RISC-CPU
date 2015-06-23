@@ -1,0 +1,4 @@
+Mapping Module pc16 . . .
+MAP command line:
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+Mapping Module pc16: DONE

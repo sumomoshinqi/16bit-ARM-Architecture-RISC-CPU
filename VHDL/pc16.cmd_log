@@ -1,0 +1,221 @@
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd
+xst -quiet -ifn __projnav/pc16.xst -ofn pc16.syr
+ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 pc16.ngc pc16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o pc16_map.ncd pc16.ngd pc16.pcf
+par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+bitgen -f pc16.ut pc16.ncd

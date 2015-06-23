@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<da_list><da><ds><vendor>UNKNOWN</vendor></ds><le leid="33"><type>net</type><name>pc16/clk</name></le><msg type="WARNING"><num>479</num><ltext>The input pad net </ltext><ltext lref="33">'clk'</ltext><ltext> is driving one or more clock loads that should only use a dedicated clock buffer. This could result in large clock skews on this net. Check whether the correct type of BUF is being used to drive the clock buffer.</ltext></msg></da></da_list>

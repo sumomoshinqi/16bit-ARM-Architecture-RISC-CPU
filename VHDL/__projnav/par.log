@@ -1,0 +1,3 @@
+Place & Route Module pc16 . . .
+PAR command line: par -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf
+PAR completed successfully

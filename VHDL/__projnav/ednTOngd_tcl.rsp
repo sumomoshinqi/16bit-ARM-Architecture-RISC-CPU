@@ -1,0 +1,2 @@
+set ADucfFile {../alu.ucf}
+set AD {}

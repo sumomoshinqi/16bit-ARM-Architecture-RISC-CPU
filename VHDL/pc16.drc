@@ -1,0 +1,10 @@
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net _n0026 is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net _n0025 is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net _n0076 is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+DRC detected 0 errors and 3 warnings.

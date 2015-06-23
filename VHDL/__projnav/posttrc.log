@@ -1,0 +1,4 @@
+Post Route Timing Report for Module pc16 . . .
+TRACE command line and options:
+trce -quiet -e 3 -l 3 -xml pc16 pc16.ncd -o pc16.twr pc16.pcf
+Post Route Timing Report for Module pc16 : DONE

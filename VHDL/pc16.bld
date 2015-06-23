@@ -1,0 +1,194 @@
+Release 5.1i - ngdbuild F.23
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -quiet -dd e:\16bit\16arm/_ngo -uc ../alu.ucf
+-insert_keep_hierarchy -p xc2s150-pq208-6 pc16.ngc pc16.ngd 
+
+Reading NGO file "E:/16bit/16ARM/pc16.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "../alu.ucf" ...
+INFO:NgdBuild:738 - A case sensitive search for the INST, PAD, or NET element
+   referred to by a constraint entry in '../alu.ucf' that accompanies this
+   design has failed, while a case insensitive search is in progress. The result
+   of the case insensitive search will be used, but messages will accompany each
+   and every use of a case insensitive result. Constraints are case sensitive
+   with respect to user-specified identifiers, which includes names of logic
+   elements in a design.
+INFO:NgdBuild:740 - Line 5 in '../alu.ucf': Found case insensitive match for NET
+   name 'DB<15>'. NET is 'db<15>'.
+INFO:NgdBuild:740 - Line 6 in '../alu.ucf': Found case insensitive match for NET
+   name 'DB<14>'. NET is 'db<14>'.
+INFO:NgdBuild:740 - Line 7 in '../alu.ucf': Found case insensitive match for NET
+   name 'DB<13>'. NET is 'db<13>'.
+INFO:NgdBuild:740 - Line 8 in '../alu.ucf': Found case insensitive match for NET
+   name 'DB<12>'. NET is 'db<12>'.
+INFO:NgdBuild:740 - Line 9 in '../alu.ucf': Found case insensitive match for NET
+   name 'DB<11>'. NET is 'db<11>'.
+INFO:NgdBuild:740 - Line 10 in '../alu.ucf': Found case insensitive match for
+   NET name 'DB<10>'. NET is 'db<10>'.
+INFO:NgdBuild:740 - Line 11 in '../alu.ucf': Found case insensitive match for
+   NET name 'DB<9>'. NET is 'db<9>'.
+INFO:NgdBuild:740 - Line 12 in '../alu.ucf': Found case insensitive match for
+   NET name 'DB<8>'. NET is 'db<8>'.
+INFO:NgdBuild:740 - Line 13 in '../alu.ucf': Found case insensitive match for
+   NET name 'DB<7>'. NET is 'db<7>'.
+INFO:NgdBuild:740 - Line 14 in '../alu.ucf': Found case insensitive match for
+   NET name 'DB<6>'. NET is 'db<6>'.
+INFO:NgdBuild:740 - Line 15 in '../alu.ucf': Found case insensitive match for
+   NET name 'DB<5>'. NET is 'db<5>'.
+INFO:NgdBuild:740 - Line 16 in '../alu.ucf': Found case insensitive match for
+   NET name 'DB<4>'. NET is 'db<4>'.
+INFO:NgdBuild:740 - Line 17 in '../alu.ucf': Found case insensitive match for
+   NET name 'DB<3>'. NET is 'db<3>'.
+INFO:NgdBuild:740 - Line 18 in '../alu.ucf': Found case insensitive match for
+   NET name 'DB<2>'. NET is 'db<2>'.
+INFO:NgdBuild:740 - Line 19 in '../alu.ucf': Found case insensitive match for
+   NET name 'DB<1>'. NET is 'db<1>'.
+INFO:NgdBuild:740 - Line 20 in '../alu.ucf': Found case insensitive match for
+   NET name 'DB<0>'. NET is 'db<0>'.
+INFO:NgdBuild:740 - Line 21 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<15>'. NET is 'ab<15>'.
+INFO:NgdBuild:740 - Line 22 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<14>'. NET is 'ab<14>'.
+INFO:NgdBuild:740 - Line 23 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<13>'. NET is 'ab<13>'.
+INFO:NgdBuild:740 - Line 24 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<12>'. NET is 'ab<12>'.
+INFO:NgdBuild:740 - Line 25 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<11>'. NET is 'ab<11>'.
+INFO:NgdBuild:740 - Line 26 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<10>'. NET is 'ab<10>'.
+INFO:NgdBuild:740 - Line 27 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<9>'. NET is 'ab<9>'.
+INFO:NgdBuild:740 - Line 28 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<8>'. NET is 'ab<8>'.
+INFO:NgdBuild:740 - Line 29 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<7>'. NET is 'ab<7>'.
+INFO:NgdBuild:740 - Line 30 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<6>'. NET is 'ab<6>'.
+INFO:NgdBuild:740 - Line 31 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<5>'. NET is 'ab<5>'.
+INFO:NgdBuild:740 - Line 32 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<4>'. NET is 'ab<4>'.
+INFO:NgdBuild:740 - Line 33 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<3>'. NET is 'ab<3>'.
+INFO:NgdBuild:740 - Line 34 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<2>'. NET is 'ab<2>'.
+INFO:NgdBuild:740 - Line 35 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<1>'. NET is 'ab<1>'.
+INFO:NgdBuild:740 - Line 36 in '../alu.ucf': Found case insensitive match for
+   NET name 'AB<0>'. NET is 'ab<0>'.
+INFO:NgdBuild:740 - Line 37 in '../alu.ucf': Found case insensitive match for
+   NET name 'MUX<2>'. NET is 'mux<2>'.
+INFO:NgdBuild:740 - Line 38 in '../alu.ucf': Found case insensitive match for
+   NET name 'MUX<1>'. NET is 'mux<1>'.
+INFO:NgdBuild:740 - Line 39 in '../alu.ucf': Found case insensitive match for
+   NET name 'MUX<0>'. NET is 'mux<0>'.
+INFO:NgdBuild:740 - Line 73 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<31>'. NET is 'ci<31>'.
+INFO:NgdBuild:740 - Line 74 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<30>'. NET is 'ci<30>'.
+INFO:NgdBuild:740 - Line 75 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<29>'. NET is 'ci<29>'.
+INFO:NgdBuild:740 - Line 76 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<28>'. NET is 'ci<28>'.
+INFO:NgdBuild:740 - Line 77 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<27>'. NET is 'ci<27>'.
+INFO:NgdBuild:740 - Line 78 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<26>'. NET is 'ci<26>'.
+INFO:NgdBuild:740 - Line 79 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<25>'. NET is 'ci<25>'.
+INFO:NgdBuild:740 - Line 80 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<24>'. NET is 'ci<24>'.
+INFO:NgdBuild:740 - Line 81 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<23>'. NET is 'ci<23>'.
+INFO:NgdBuild:740 - Line 82 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<22>'. NET is 'ci<22>'.
+INFO:NgdBuild:740 - Line 83 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<21>'. NET is 'ci<21>'.
+INFO:NgdBuild:740 - Line 84 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<20>'. NET is 'ci<20>'.
+INFO:NgdBuild:740 - Line 85 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<19>'. NET is 'ci<19>'.
+INFO:NgdBuild:740 - Line 86 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<18>'. NET is 'ci<18>'.
+INFO:NgdBuild:740 - Line 87 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<17>'. NET is 'ci<17>'.
+INFO:NgdBuild:740 - Line 88 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<16>'. NET is 'ci<16>'.
+INFO:NgdBuild:740 - Line 89 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<15>'. NET is 'ci<15>'.
+INFO:NgdBuild:740 - Line 90 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<14>'. NET is 'ci<14>'.
+INFO:NgdBuild:740 - Line 91 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<13>'. NET is 'ci<13>'.
+INFO:NgdBuild:740 - Line 92 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<12>'. NET is 'ci<12>'.
+INFO:NgdBuild:740 - Line 93 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<11>'. NET is 'ci<11>'.
+INFO:NgdBuild:740 - Line 94 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<10>'. NET is 'ci<10>'.
+INFO:NgdBuild:740 - Line 95 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<9>'. NET is 'ci<9>'.
+INFO:NgdBuild:740 - Line 96 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<8>'. NET is 'ci<8>'.
+INFO:NgdBuild:740 - Line 97 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<7>'. NET is 'ci<7>'.
+INFO:NgdBuild:740 - Line 98 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<6>'. NET is 'ci<6>'.
+INFO:NgdBuild:740 - Line 99 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<5>'. NET is 'ci<5>'.
+INFO:NgdBuild:740 - Line 100 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<4>'. NET is 'ci<4>'.
+INFO:NgdBuild:740 - Line 101 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<3>'. NET is 'ci<3>'.
+INFO:NgdBuild:740 - Line 102 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<2>'. NET is 'ci<2>'.
+INFO:NgdBuild:740 - Line 103 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<1>'. NET is 'ci<1>'.
+INFO:NgdBuild:740 - Line 104 in '../alu.ucf': Found case insensitive match for
+   NET name 'CI<0>'. NET is 'ci<0>'.
+INFO:NgdBuild:740 - Line 105 in '../alu.ucf': Found case insensitive match for
+   NET name 'MCLK'. NET is 'mclk'.
+INFO:NgdBuild:740 - Line 106 in '../alu.ucf': Found case insensitive match for
+   NET name 'MRD'. NET is 'mrd'.
+INFO:NgdBuild:740 - Line 107 in '../alu.ucf': Found case insensitive match for
+   NET name 'IOW'. NET is 'iow'.
+INFO:NgdBuild:740 - Line 108 in '../alu.ucf': Found case insensitive match for
+   NET name 'IOR'. NET is 'ior'.
+INFO:NgdBuild:740 - Line 109 in '../alu.ucf': Found case insensitive match for
+   NET name 'CTRL4'. NET is 'ctrl4'.
+INFO:NgdBuild:740 - Line 110 in '../alu.ucf': Found case insensitive match for
+   NET name 'CTRL3'. NET is 'ctrl3'.
+INFO:NgdBuild:740 - Line 111 in '../alu.ucf': Found case insensitive match for
+   NET name 'CTRL2'. NET is 'ctrl2'.
+INFO:NgdBuild:740 - Line 112 in '../alu.ucf': Found case insensitive match for
+   NET name 'CTRL1'. NET is 'ctrl1'.
+INFO:NgdBuild:740 - Line 113 in '../alu.ucf': Found case insensitive match for
+   NET name 'MWR'. NET is 'mwr'.
+INFO:NgdBuild:740 - Line 114 in '../alu.ucf': Found case insensitive match for
+   NET name 'CLK'. NET is 'clk'.
+INFO:NgdBuild:740 - Line 116 in '../alu.ucf': Found case insensitive match for
+   NET name 'RUN'. NET is 'run'.
+INFO:NgdBuild:740 - Line 117 in '../alu.ucf': Found case insensitive match for
+   NET name 'RESET'. NET is 'reset'.
+INFO:NgdBuild:740 - Line 118 in '../alu.ucf': Found case insensitive match for
+   NET name 'PRIX'. NET is 'prix'.
+INFO:NgdBuild:740 - Line 119 in '../alu.ucf': Found case insensitive match for
+   NET name 'KRIX'. NET is 'krix'.
+
+Checking timing specifications ...
+Checking expanded design ...
+WARNING:NgdBuild:479 - The input pad net 'clk' is driving one or more clock
+   loads that should only use a dedicated clock buffer. This could result in
+   large clock skews on this net. Check whether the correct type of BUF is being
+   used to drive the clock buffer.
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Writing NGD file "pc16.ngd" ...
+
+Writing NGDBUILD log file "pc16.bld"...

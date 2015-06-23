@@ -1,0 +1,222 @@
+Release 5.1i - Par F.23
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+
+fdcc1121::  Mon Jun 08 14:19:13 2015
+
+
+C:/Xilinx/bin/nt/par.exe -w -ol 2 -t 1 pc16_map.ncd pc16.ncd pc16.pcf 
+
+
+Constraints file: pc16.pcf
+WARNING:Par:214 - You are using an evaluation version of Xilinx Software. In 563
+   days, this program will not operate. For more information about thisproduct,
+   please refer to the Evaluation Agreement, which was shipped toyou along with
+   the Evaluation CDs.
+   To purchase an annual license for this software, please contact yourlocal
+   Field Applications Engineer (FAE) or salesperson. If you have any questions,
+   or if we can assist in any way, please send an email to:eval@xilinx.com
+   Thank You!
+
+Loading device database for application par from file "pc16_map.ncd".
+   "pc16" is an NCD, version 2.37, device xc2s150, package pq208, speed -6
+Loading device for application par from file 'v150.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRELIMINARY 1.25 2002-06-19.
+
+
+Resolved that IOB <mclk> must be placed at site P192.
+Resolved that IOB <ctrl1> must be placed at site P165.
+Resolved that IOB <ctrl2> must be placed at site P166.
+Resolved that IOB <ctrl3> must be placed at site P98.
+Resolved that IOB <ctrl4> must be placed at site P168.
+Resolved that IOB <reset> must be placed at site P108.
+Resolved that IOB <ab<10>> must be placed at site P204.
+Resolved that IOB <ab<11>> must be placed at site P203.
+Resolved that IOB <ab<12>> must be placed at site P202.
+Resolved that IOB <ab<13>> must be placed at site P201.
+Resolved that IOB <ab<14>> must be placed at site P200.
+Resolved that IOB <ab<15>> must be placed at site P199.
+Resolved that IOB <db<10>> must be placed at site P175.
+Resolved that IOB <db<11>> must be placed at site P174.
+Resolved that IOB <db<12>> must be placed at site P173.
+Resolved that IOB <db<13>> must be placed at site P102.
+Resolved that IOB <db<14>> must be placed at site P101.
+Resolved that IOB <db<15>> must be placed at site P100.
+Resolved that IOB <krix> must be placed at site P194.
+Resolved that IOB <ci<10>> must be placed at site P112.
+Resolved that IOB <ci<11>> must be placed at site P113.
+Resolved that IOB <ci<12>> must be placed at site P114.
+Resolved that IOB <ci<20>> must be placed at site P126.
+Resolved that IOB <ci<13>> must be placed at site P115.
+Resolved that IOB <ci<21>> must be placed at site P127.
+Resolved that IOB <ci<14>> must be placed at site P119.
+Resolved that IOB <ci<22>> must be placed at site P133.
+Resolved that IOB <ci<30>> must be placed at site P15.
+Resolved that IOB <ci<15>> must be placed at site P120.
+Resolved that IOB <ci<23>> must be placed at site P134.
+Resolved that IOB <ci<31>> must be placed at site P14.
+Resolved that IOB <ci<16>> must be placed at site P121.
+Resolved that IOB <ci<24>> must be placed at site P22.
+Resolved that IOB <ci<17>> must be placed at site P122.
+Resolved that IOB <ci<25>> must be placed at site P21.
+Resolved that IOB <ci<18>> must be placed at site P123.
+Resolved that IOB <ci<26>> must be placed at site P20.
+Resolved that IOB <ci<19>> must be placed at site P125.
+Resolved that IOB <ci<27>> must be placed at site P18.
+Resolved that IOB <ci<28>> must be placed at site P17.
+Resolved that IOB <ci<29>> must be placed at site P16.
+Resolved that IOB <mux<0>> must be placed at site P95.
+Resolved that IOB <mux<1>> must be placed at site P96.
+Resolved that IOB <mux<2>> must be placed at site P97.
+Resolved that IOB <prix> must be placed at site P193.
+Resolved that IOB <ab<0>> must be placed at site P10.
+Resolved that IOB <ab<1>> must be placed at site P9.
+Resolved that IOB <clk> must be placed at site P94.
+Resolved that IOB <ab<2>> must be placed at site P8.
+Resolved that IOB <ab<3>> must be placed at site P7.
+Resolved that IOB <ab<4>> must be placed at site P6.
+Resolved that IOB <ab<5>> must be placed at site P5.
+Resolved that IOB <ab<6>> must be placed at site P4.
+Resolved that IOB <ab<7>> must be placed at site P3.
+Resolved that IOB <ab<8>> must be placed at site P206.
+Resolved that IOB <ab<9>> must be placed at site P205.
+Resolved that IOB <ior> must be placed at site P84.
+Resolved that IOB <iow> must be placed at site P99.
+Resolved that IOB <mrd> must be placed at site P24.
+Resolved that IOB <db<0>> must be placed at site P195.
+Resolved that IOB <db<1>> must be placed at site P191.
+Resolved that IOB <db<2>> must be placed at site P189.
+Resolved that IOB <db<3>> must be placed at site P188.
+Resolved that IOB <db<4>> must be placed at site P187.
+Resolved that IOB <db<5>> must be placed at site P181.
+Resolved that IOB <db<6>> must be placed at site P180.
+Resolved that IOB <db<7>> must be placed at site P179.
+Resolved that IOB <db<8>> must be placed at site P178.
+Resolved that IOB <db<9>> must be placed at site P176.
+Resolved that IOB <mwr> must be placed at site P23.
+Resolved that IOB <run> must be placed at site P109.
+Resolved that IOB <ci<0>> must be placed at site P81.
+Resolved that IOB <ci<1>> must be placed at site P82.
+Resolved that IOB <ci<2>> must be placed at site P83.
+Resolved that IOB <ci<3>> must be placed at site P86.
+Resolved that IOB <ci<4>> must be placed at site P87.
+Resolved that IOB <ci<5>> must be placed at site P88.
+Resolved that IOB <ci<6>> must be placed at site P89.
+Resolved that IOB <ci<7>> must be placed at site P90.
+Resolved that IOB <ci<8>> must be placed at site P110.
+Resolved that IOB <ci<9>> must be placed at site P111.
+
+
+Device utilization summary:
+
+   Number of External IOBs            81 out of 140    57%
+      Number of LOCed External IOBs   81 out of 81    100%
+
+   Number of SLICEs                  475 out of 1728   27%
+
+
+
+
+Overall effort level (-ol):   2 (set by user)
+Placer effort level (-pl):    2 (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    2 (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98a17d) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+...............
+Phase 5.8 (Checksum:be992e) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file pc16.ncd.
+
+Total REAL time to placer completion: 0 secs 
+Total CPU time to placer completion: 0 secs 
+
+
+Starting Router          REAL time: 0 secs 
+
+Phase 1: 3324 unrouted;       REAL time: 0 secs 
+
+Phase 2: 3191 unrouted;       REAL time: 0 secs 
+
+Phase 3: 1103 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Finished Router          REAL time: 2 secs 
+
+Total REAL time to router completion: 2 secs 
+Total CPU time to router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++----------------------------+----------+--------+------------+-------------+
+|         Clock Net          | Resource | Fanout |Max Skew(ns)|Max Delay(ns)|
++----------------------------+----------+--------+------------+-------------+
+|          clk_ibuf          |Low-Skew  |    2   |  0.000     |  4.383      |
++----------------------------+----------+--------+------------+-------------+
+|         mclk_obuf          |   Local  |   59   |  2.646     |  4.026      |
++----------------------------+----------+--------+------------+-------------+
+|            _n0026          |   Local  |   32   |  2.381     |  3.434      |
++----------------------------+----------+--------+------------+-------------+
+|            _n0025          |   Local  |   16   |  0.232     |  3.073      |
++----------------------------+----------+--------+------------+-------------+
+|            _n0076          |   Local  |   87   |  1.660     |  3.253      |
++----------------------------+----------+--------+------------+-------------+
+|            mclk_1          |   Local  |   43   |  2.490     |  3.499      |
++----------------------------+----------+--------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The Score for this design is: 280
+
+
+The Number of signals not completely routed for this design is: 0
+
+   The Average Connection Delay for this design is:        1.869 ns
+   The Maximum Pin Delay is:                               5.977 ns
+   The Average Connection Delay on the 10 Worst Nets is:   4.692 ns
+
+   Listing Pin Delays by value: (ns)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 6.00  d >= 6.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+         621        1437         749         377         140           0
+
+
+All signals are completely routed.
+
+Total REAL time to par completion: 2 secs 
+Total CPU time to par completion: 1 secs 
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file pc16.ncd.
+
+
+PAR done.

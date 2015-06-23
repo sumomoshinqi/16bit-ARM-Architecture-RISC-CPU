@@ -1,0 +1,327 @@
+Release 5.1i - Par F.23
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Mon Jun 08 14:19:15 2015
+
+
+NOTE: This file is designed to be imported into a spreadsheet program
+such as Microsoft Excel for viewing, printing and sorting. The |
+character is used as the data field separator. This file is also designed
+to support parsing.
+
+Input file:       pc16_map.ncd
+Output file:      pc16.ncd
+Part type:        xc2s150
+Speed grade:      -6
+Package:          pq208
+
+Pinout by Pin Number:
+
+-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Pin Number|Signal Name|Pin Usage|Pin Name|Direction|IO Standard|IO Bank #|Drive (mA)|Slew Rate|Pullup Pulldown|IOB Delay|Voltage|Constraint|
+P1|||GND||||||||||
+P10|ab<0>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P100|db<15>|IOB||BIDIR|LVTTL|(0,4)***|12|SLOW|NONE**|NONE||LOCATED|
+P101|db<14>|IOB||BIDIR|LVTTL|(0,4)***|12|SLOW|NONE**|NONE||LOCATED|
+P102|db<13>|IOB||BIDIR|LVTTL|(0,4)***|12|SLOW|NONE**|NONE||LOCATED|
+P103|||GND||||||||||
+P104|||DONE||||||||||
+P105|||VCCO|||0|||||3.30||
+P106|||PROGRAM||||||||||
+P107||IOB|IO_INIT|UNUSED||(0,3)***|||||||
+P108|reset|IOB|IO_D7|INPUT|LVTTL|(0,3)***||||NONE||LOCATED|
+P109|run|IOB||INPUT|LVTTL|(0,3)***||||NONE||LOCATED|
+P11|||GND||||||||||
+P110|ci<8>|IOB||OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P111|ci<9>|IOB|IO_VREF_3|OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P112|ci<10>|IOB||OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P113|ci<11>|IOB||OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P114|ci<12>|IOB|IO_VREF_3|OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P115|ci<13>|IOB|IO_D6|OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P116|||GND||||||||||
+P117|||VCCO|||0|||||3.30||
+P118|||VCCINT||||||||2.5||
+P119|ci<14>|IOB|IO_D5|OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P12|||VCCO|||0|||||3.30||
+P120|ci<15>|IOB||OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P121|ci<16>|IOB||OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P122|ci<17>|IOB||OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P123|ci<18>|IOB||OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P124|||GND||||||||||
+P125|ci<19>|IOB|IO_VREF_3|OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P126|ci<20>|IOB|IO_D4|OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P127|ci<21>|IOB||OUTPUT|LVTTL|(0,3)***|12|SLOW|NONE**|||LOCATED|
+P128|||VCCINT||||||||2.5||
+P129||PCIIOB|IO_TRDY|UNUSED||(0,3)***|||||||
+P13|||VCCINT||||||||2.5||
+P130|||VCCO|||0|||||3.30||
+P131|||GND||||||||||
+P132||PCIIOB|IO_IRDY|UNUSED||(0,2)***|||||||
+P133|ci<22>|IOB||OUTPUT|LVTTL|(0,2)***|12|SLOW|NONE**|||LOCATED|
+P134|ci<23>|IOB||OUTPUT|LVTTL|(0,2)***|12|SLOW|NONE**|||LOCATED|
+P135||IOB|IO_D3|UNUSED||(0,2)***|||||||
+P136||IOB|IO_VREF_2|UNUSED||(0,2)***|||||||
+P137|||GND||||||||||
+P138||IOB||UNUSED||(0,2)***|||||||
+P139||IOB||UNUSED||(0,2)***|||||||
+P14|ci<31>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P140||IOB||UNUSED||(0,2)***|||||||
+P141||IOB||UNUSED||(0,2)***|||||||
+P142||IOB|IO_D2|UNUSED||(0,2)***|||||||
+P143|||VCCINT||||||||2.5||
+P144|||VCCO|||0|||||3.30||
+P145|||GND||||||||||
+P146||IOB|IO_D1|UNUSED||(0,2)***|||||||
+P147||IOB|IO_VREF_2|UNUSED||(0,2)***|||||||
+P148||IOB||UNUSED||(0,2)***|||||||
+P149||IOB||UNUSED||(0,2)***|||||||
+P15|ci<30>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P150||IOB|IO_VREF_2|UNUSED||(0,2)***|||||||
+P151||IOB||UNUSED||(0,2)***|||||||
+P152||IOB||UNUSED||(0,2)***|||||||
+P153||IOB|IO_DIN_D0|UNUSED||(0,2)***|||||||
+P154||IOB|IO_DOUT_BUSY|UNUSED||(0,2)***|||||||
+P155|||CCLK||||||||||
+P156|||VCCO|||0|||||3.30||
+P157|||TDO||||||||||
+P158|||GND||||||||||
+P159|||TDI||||||||||
+P16|ci<29>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P160||IOB|IO_CS|UNUSED||(0,1)***|||||||
+P161||IOB|IO_WRITE|UNUSED||(0,1)***|||||||
+P162||IOB||UNUSED||(0,1)***|||||||
+P163||IOB||UNUSED||(0,1)***|||||||
+P164||IOB|IO_VREF_1|UNUSED||(0,1)***|||||||
+P165|ctrl1|IOB||OUTPUT|LVTTL|(0,1)***|12|SLOW|NONE**|||LOCATED|
+P166|ctrl2|IOB||OUTPUT|LVTTL|(0,1)***|12|SLOW|NONE**|||LOCATED|
+P167||IOB|IO_VREF_1|UNUSED||(0,1)***|||||||
+P168|ctrl4|IOB||OUTPUT|LVTTL|(0,1)***|12|SLOW|NONE**|||LOCATED|
+P169|||GND||||||||||
+P17|ci<28>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P170|||VCCO|||0|||||3.30||
+P171|||VCCINT||||||||2.5||
+P172||IOB||UNUSED||(0,1)***|||||||
+P173|db<12>|IOB||BIDIR|LVTTL|(0,1)***|12|SLOW|NONE**|NONE||LOCATED|
+P174|db<11>|IOB||BIDIR|LVTTL|(0,1)***|12|SLOW|NONE**|NONE||LOCATED|
+P175|db<10>|IOB||BIDIR|LVTTL|(0,1)***|12|SLOW|NONE**|NONE||LOCATED|
+P176|db<9>|IOB||BIDIR|LVTTL|(0,1)***|12|SLOW|NONE**|NONE||LOCATED|
+P177|||GND||||||||||
+P178|db<8>|IOB|IO_VREF_1|BIDIR|LVTTL|(0,1)***|12|SLOW|NONE**|NONE||LOCATED|
+P179|db<7>|IOB||BIDIR|LVTTL|(0,1)***|12|SLOW|NONE**|NONE||LOCATED|
+P18|ci<27>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P180|db<6>|IOB||BIDIR|LVTTL|(0,1)***|12|SLOW|NONE**|NONE||LOCATED|
+P181|db<5>|IOB||BIDIR|LVTTL|(0,1)***|12|SLOW|NONE**|NONE||LOCATED|
+P182||GCLKIOB|GCK2|UNUSED||(0,1)***|||||||
+P183|||GND||||||||||
+P184|||VCCO|||0|||||3.30||
+P185||GCLKIOB|GCK3|UNUSED||0|||||||
+P186|||VCCINT||||||||2.5||
+P187|db<4>|IOB||BIDIR|LVTTL|0|12|SLOW|NONE**|NONE||LOCATED|
+P188|db<3>|IOB||BIDIR|LVTTL|0|12|SLOW|NONE**|NONE||LOCATED|
+P189|db<2>|IOB|IO_VREF_0|BIDIR|LVTTL|0|12|SLOW|NONE**|NONE||LOCATED|
+P19|||GND||||||||||
+P190|||GND||||||||||
+P191|db<1>|IOB||BIDIR|LVTTL|0|12|SLOW|NONE**|NONE||LOCATED|
+P192|mclk|IOB||OUTPUT|LVTTL|0|12|SLOW|NONE**|||LOCATED|
+P193|prix|IOB||INPUT|LVTTL|0||||NONE||LOCATED|
+P194|krix|IOB||INPUT|LVTTL|0||||NONE||LOCATED|
+P195|db<0>|IOB||BIDIR|LVTTL|0|12|SLOW|NONE**|NONE||LOCATED|
+P196|||VCCINT||||||||2.5||
+P197|||VCCO|||0|||||3.30||
+P198|||GND||||||||||
+P199|ab<15>|IOB||OUTPUT|LVTTL|0|12|SLOW|NONE**|||LOCATED|
+P2|||TMS||||||||||
+P20|ci<26>|IOB|IO_VREF_7|OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P200|ab<14>|IOB|IO_VREF_0|OUTPUT|LVTTL|0|12|SLOW|NONE**|||LOCATED|
+P201|ab<13>|IOB||OUTPUT|LVTTL|0|12|SLOW|NONE**|||LOCATED|
+P202|ab<12>|IOB||OUTPUT|LVTTL|0|12|SLOW|NONE**|||LOCATED|
+P203|ab<11>|IOB|IO_VREF_0|OUTPUT|LVTTL|0|12|SLOW|NONE**|||LOCATED|
+P204|ab<10>|IOB||OUTPUT|LVTTL|0|12|SLOW|NONE**|||LOCATED|
+P205|ab<9>|IOB||OUTPUT|LVTTL|0|12|SLOW|NONE**|||LOCATED|
+P206|ab<8>|IOB||OUTPUT|LVTTL|0|12|SLOW|NONE**|||LOCATED|
+P207|||TCK||||||||||
+P208|||VCCO|||0|||||3.30||
+P21|ci<25>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P22|ci<24>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P23|mwr|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P24|mrd|IOB|IO_IRDY|OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P25|||GND||||||||||
+P26|||VCCO|||0|||||3.30||
+P27||PCIIOB|IO_TRDY|UNUSED||(0,6)***|||||||
+P28|||VCCINT||||||||2.5||
+P29||IOB||UNUSED||(0,6)***|||||||
+P3|ab<7>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P30||IOB||UNUSED||(0,6)***|||||||
+P31||IOB|IO_VREF_6|UNUSED||(0,6)***|||||||
+P32|||GND||||||||||
+P33||IOB||UNUSED||(0,6)***|||||||
+P34||IOB||UNUSED||(0,6)***|||||||
+P35||IOB||UNUSED||(0,6)***|||||||
+P36||IOB||UNUSED||(0,6)***|||||||
+P37||IOB||UNUSED||(0,6)***|||||||
+P38|||VCCINT||||||||2.5||
+P39|||VCCO|||0|||||3.30||
+P4|ab<6>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P40|||GND||||||||||
+P41||IOB||UNUSED||(0,6)***|||||||
+P42||IOB|IO_VREF_6|UNUSED||(0,6)***|||||||
+P43||IOB||UNUSED||(0,6)***|||||||
+P44||IOB||UNUSED||(0,6)***|||||||
+P45||IOB|IO_VREF_6|UNUSED||(0,6)***|||||||
+P46||IOB||UNUSED||(0,6)***|||||||
+P47||IOB||UNUSED||(0,6)***|||||||
+P48||IOB||UNUSED||(0,6)***|||||||
+P49||IOB||UNUSED||(0,6)***|||||||
+P5|ab<5>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P50|||M1||||||||||
+P51|||GND||||||||||
+P52|||M0||||||||||
+P53|||VCCO|||0|||||3.30||
+P54|||M2||||||||||
+P57||IOB||UNUSED||(0,5)***|||||||
+P58||IOB||UNUSED||(0,5)***|||||||
+P59||IOB|IO_VREF_5|UNUSED||(0,5)***|||||||
+P6|ab<4>|IOB|IO_VREF_7|OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P60||IOB||UNUSED||(0,5)***|||||||
+P61||IOB||UNUSED||(0,5)***|||||||
+P62||IOB|IO_VREF_5|UNUSED||(0,5)***|||||||
+P63||IOB||UNUSED||(0,5)***|||||||
+P64|||GND||||||||||
+P65|||VCCO|||0|||||3.30||
+P66|||VCCINT||||||||2.5||
+P67||IOB||UNUSED||(0,5)***|||||||
+P68||IOB||UNUSED||(0,5)***|||||||
+P69||IOB||UNUSED||(0,5)***|||||||
+P7|ab<3>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P70||IOB||UNUSED||(0,5)***|||||||
+P71||IOB||UNUSED||(0,5)***|||||||
+P72|||GND||||||||||
+P73||IOB|IO_VREF_5|UNUSED||(0,5)***|||||||
+P74||IOB||UNUSED||(0,5)***|||||||
+P75||IOB||UNUSED||(0,5)***|||||||
+P76|||VCCINT||||||||2.5||
+P77||GCLKIOB|GCK1|UNUSED||(0,5)***|||||||
+P78|||VCCO|||0|||||3.30||
+P79|||GND||||||||||
+P8|ab<2>|IOB||OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P80||GCLKIOB|GCK0|UNUSED||(0,4)***|||||||
+P81|ci<0>|IOB||OUTPUT|LVTTL|(0,4)***|12|SLOW|NONE**|||LOCATED|
+P82|ci<1>|IOB||OUTPUT|LVTTL|(0,4)***|12|SLOW|NONE**|||LOCATED|
+P83|ci<2>|IOB||OUTPUT|LVTTL|(0,4)***|12|SLOW|NONE**|||LOCATED|
+P84|ior|IOB|IO_VREF_4|OUTPUT|LVTTL|(0,4)***|12|SLOW|NONE**|||LOCATED|
+P85|||GND||||||||||
+P86|ci<3>|IOB||OUTPUT|LVTTL|(0,4)***|12|SLOW|NONE**|||LOCATED|
+P87|ci<4>|IOB||OUTPUT|LVTTL|(0,4)***|12|SLOW|NONE**|||LOCATED|
+P88|ci<5>|IOB||OUTPUT|LVTTL|(0,4)***|12|SLOW|NONE**|||LOCATED|
+P89|ci<6>|IOB||OUTPUT|LVTTL|(0,4)***|12|SLOW|NONE**|||LOCATED|
+P9|ab<1>|IOB|IO_VREF_7|OUTPUT|LVTTL|(0,7)***|12|SLOW|NONE**|||LOCATED|
+P90|ci<7>|IOB||OUTPUT|LVTTL|(0,4)***|12|SLOW|NONE**|||LOCATED|
+P91|||VCCINT||||||||2.5||
+P92|||VCCO|||0|||||3.30||
+P93|||GND||||||||||
+P94|clk|IOB||INPUT|LVTTL|(0,4)***||||NONE||LOCATED|
+P95|mux<0>|IOB|IO_VREF_4|INPUT|LVTTL|(0,4)***||||NONE||LOCATED|
+P96|mux<1>|IOB||INPUT|LVTTL|(0,4)***||||NONE||LOCATED|
+P97|mux<2>|IOB||INPUT|LVTTL|(0,4)***||||NONE||LOCATED|
+P98|ctrl3|IOB|IO_VREF_4|OUTPUT|LVTTL|(0,4)***|12|SLOW|NONE**|||LOCATED|
+P99|iow|IOB||OUTPUT|LVTTL|(0,4)***|12|SLOW|NONE**|||LOCATED|
+
+-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+
+* Default value.
+** This default Pullup/Pulldown value can be overridden in Bitgen.
+*** In some smaller packages, the VCCO bank number of a pin may trail
+     the VREF bank number (VCCO,VREF).
+
+
+#
+#To preserve the pinout above for future design iterations,
+#In Project Navigator simply execute the "Back-annotate Pin
+#Location" process located under the "Place-and-Route" Process,
+#or invoke PIN2UCF from the command line. The location constraints
+#will be written into your specified UCF file. (The constraints
+#listed below are in PCF format and cannot be directly used
+#in the UCF file).
+#
+COMP "mclk" LOCATE = SITE "P192" ; 
+COMP "ctrl1" LOCATE = SITE "P165" ; 
+COMP "ctrl2" LOCATE = SITE "P166" ; 
+COMP "ctrl3" LOCATE = SITE "P98" ; 
+COMP "ctrl4" LOCATE = SITE "P168" ; 
+COMP "reset" LOCATE = SITE "P108" ; 
+COMP "ab<10>" LOCATE = SITE "P204" ; 
+COMP "ab<11>" LOCATE = SITE "P203" ; 
+COMP "ab<12>" LOCATE = SITE "P202" ; 
+COMP "ab<13>" LOCATE = SITE "P201" ; 
+COMP "ab<14>" LOCATE = SITE "P200" ; 
+COMP "ab<15>" LOCATE = SITE "P199" ; 
+COMP "db<10>" LOCATE = SITE "P175" ; 
+COMP "db<11>" LOCATE = SITE "P174" ; 
+COMP "db<12>" LOCATE = SITE "P173" ; 
+COMP "db<13>" LOCATE = SITE "P102" ; 
+COMP "db<14>" LOCATE = SITE "P101" ; 
+COMP "db<15>" LOCATE = SITE "P100" ; 
+COMP "krix" LOCATE = SITE "P194" ; 
+COMP "ci<10>" LOCATE = SITE "P112" ; 
+COMP "ci<11>" LOCATE = SITE "P113" ; 
+COMP "ci<12>" LOCATE = SITE "P114" ; 
+COMP "ci<20>" LOCATE = SITE "P126" ; 
+COMP "ci<13>" LOCATE = SITE "P115" ; 
+COMP "ci<21>" LOCATE = SITE "P127" ; 
+COMP "ci<14>" LOCATE = SITE "P119" ; 
+COMP "ci<22>" LOCATE = SITE "P133" ; 
+COMP "ci<30>" LOCATE = SITE "P15" ; 
+COMP "ci<15>" LOCATE = SITE "P120" ; 
+COMP "ci<23>" LOCATE = SITE "P134" ; 
+COMP "ci<31>" LOCATE = SITE "P14" ; 
+COMP "ci<16>" LOCATE = SITE "P121" ; 
+COMP "ci<24>" LOCATE = SITE "P22" ; 
+COMP "ci<17>" LOCATE = SITE "P122" ; 
+COMP "ci<25>" LOCATE = SITE "P21" ; 
+COMP "ci<18>" LOCATE = SITE "P123" ; 
+COMP "ci<26>" LOCATE = SITE "P20" ; 
+COMP "ci<19>" LOCATE = SITE "P125" ; 
+COMP "ci<27>" LOCATE = SITE "P18" ; 
+COMP "ci<28>" LOCATE = SITE "P17" ; 
+COMP "ci<29>" LOCATE = SITE "P16" ; 
+COMP "mux<0>" LOCATE = SITE "P95" ; 
+COMP "mux<1>" LOCATE = SITE "P96" ; 
+COMP "mux<2>" LOCATE = SITE "P97" ; 
+COMP "prix" LOCATE = SITE "P193" ; 
+COMP "ab<0>" LOCATE = SITE "P10" ; 
+COMP "ab<1>" LOCATE = SITE "P9" ; 
+COMP "clk" LOCATE = SITE "P94" ; 
+COMP "ab<2>" LOCATE = SITE "P8" ; 
+COMP "ab<3>" LOCATE = SITE "P7" ; 
+COMP "ab<4>" LOCATE = SITE "P6" ; 
+COMP "ab<5>" LOCATE = SITE "P5" ; 
+COMP "ab<6>" LOCATE = SITE "P4" ; 
+COMP "ab<7>" LOCATE = SITE "P3" ; 
+COMP "ab<8>" LOCATE = SITE "P206" ; 
+COMP "ab<9>" LOCATE = SITE "P205" ; 
+COMP "ior" LOCATE = SITE "P84" ; 
+COMP "iow" LOCATE = SITE "P99" ; 
+COMP "mrd" LOCATE = SITE "P24" ; 
+COMP "db<0>" LOCATE = SITE "P195" ; 
+COMP "db<1>" LOCATE = SITE "P191" ; 
+COMP "db<2>" LOCATE = SITE "P189" ; 
+COMP "db<3>" LOCATE = SITE "P188" ; 
+COMP "db<4>" LOCATE = SITE "P187" ; 
+COMP "db<5>" LOCATE = SITE "P181" ; 
+COMP "db<6>" LOCATE = SITE "P180" ; 
+COMP "db<7>" LOCATE = SITE "P179" ; 
+COMP "db<8>" LOCATE = SITE "P178" ; 
+COMP "db<9>" LOCATE = SITE "P176" ; 
+COMP "mwr" LOCATE = SITE "P23" ; 
+COMP "run" LOCATE = SITE "P109" ; 
+COMP "ci<0>" LOCATE = SITE "P81" ; 
+COMP "ci<1>" LOCATE = SITE "P82" ; 
+COMP "ci<2>" LOCATE = SITE "P83" ; 
+COMP "ci<3>" LOCATE = SITE "P86" ; 
+COMP "ci<4>" LOCATE = SITE "P87" ; 
+COMP "ci<5>" LOCATE = SITE "P88" ; 
+COMP "ci<6>" LOCATE = SITE "P89" ; 
+COMP "ci<7>" LOCATE = SITE "P90" ; 
+COMP "ci<8>" LOCATE = SITE "P110" ; 
+COMP "ci<9>" LOCATE = SITE "P111" ; 
+#

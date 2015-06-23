@@ -1,0 +1,5 @@
+V1 3
+FL E:/16bit/16ARM/../16bit.vhd 2015/06/08.14:18:54
+EN work/PC16            FL E:/16bit/16ARM/../16bit.vhd PB ieee/STD_LOGIC_1164 \
+      PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED
+AR work/PC16/BEHAVIORAL FL E:/16bit/16ARM/../16bit.vhd EN work/PC16
